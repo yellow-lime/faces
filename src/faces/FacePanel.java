@@ -48,8 +48,8 @@ public class FacePanel extends JPanel {
 	@Override
 	protected void paintComponent(Graphics g) {
 		super.paintComponent(g);
-		for(int i = 0; i < 3; i++){
-			for(int j = 0; j < 3; j++){
+		for(int i = 0; i < 5; i++){
+			for(int j = 0; j < 5; j++){
 				paintAFaceHere(g, GRID_SIZE * 2 * i, GRID_SIZE * 2* j, Math.random() > 0.8);
 				reface();
 			}
